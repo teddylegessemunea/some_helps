@@ -1,0 +1,15 @@
+## check your gpu capablity
+    $ lspci | grep -i nvidia
+  ![](images/cuda_a.png)
+## if you get the following message it means, it is not installed
+  ![](images/nvidia_a.png)
+
+## Install nvidia using
+    $ sudo apt install nvidia-cuda-toolkit
+## Installation progress
+  ![](images/nvidia_b.png)
+  
+## now check the installation again
+    $ nvcc --version
+  ![](images/nvidia_c.png)
+    
