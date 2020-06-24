@@ -1,2 +1,16 @@
 # some_helps
 helping info for some additional library installation
+
+## First check whether it is installed
+    $ nvcc --version
+## if you get the following message it means, it is not installed
+  ![](images/nvidia_a.png)
+
+## Install nvidia using
+    $ sudo apt install nvidia-cuda-toolkit
+## Installation progress
+  ![](images/nvidia_b.png)
+  
+## now check the installation again
+    $ nvcc --version
+  ![](images/nvidia_c.png)
